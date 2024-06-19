@@ -1,0 +1,131 @@
+.container {
+  width: 90%;
+  background-color: #fff;
+  margin: 50px 50px 50px 50px;
+  padding: 25px 25px 25px 25px;
+}
+
+.container-pesquisar {
+  text-align: center;
+}
+
+.rotulo-pesquisa {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.input-pesquisa {
+  border-radius: 5px;
+  font-size: 16px;
+  width: 350px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.btn-pesquisa {
+  border-radius: 5px;
+  font-size: 16px;
+  width: 150px;
+  height: 35px;
+  font-weight: bold;
+  background-color: rgb(85, 209, 85);
+}
+.col-sexo {
+  text-align: center;
+}
+
+.col-editar {
+  text-align: center;
+}
+
+.col-excluir {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: rgb(80, 168, 255);
+}
+
+.btn-editar {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(11, 55, 216);
+  cursor: pointer;
+  margin: 15px 5px 15px 5px;
+  padding: 5px 10px 5px 10px;
+  border: solid 1px #000;
+  border-radius: 5px;
+}
+
+.btn-excluir {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(224, 4, 4);
+  cursor: pointer;
+  margin: 15px 5px 15px 5px;
+  padding: 5px 10px 5px 10px;
+  border: solid 1px #000;
+  border-radius: 5px;
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 90%;
+    background-color: #fff;
+    margin: 20px 20px 25px 15px;
+    padding: 5px 5px 5px 5px;
+  }
+
+  .col-email {
+    display: none;
+  }
+
+  .col-nome {
+    width: 150px;
+  }
+
+  .rotulo-pesquisa {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .input-pesquisa {
+    border-radius: 5px;
+    font-size: 14px;
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .btn-pesquisa {
+    border-radius: 5px;
+    font-size: 16px;
+    width: 150px;
+    height: 35px;
+    font-weight: bold;
+    background-color: rgb(85, 209, 85);
+  }
+
+  .container-pesquisar {
+    text-align: center;
+  }
+}
